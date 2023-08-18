@@ -1,0 +1,72 @@
+body{
+    background-color: lightgrey;
+}
+.sec1{
+    background-image: url(images/img.a.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.head{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(128, 128, 128, 0.7);
+}
+a{
+    color: lightgrey;
+    text-decoration: none;
+    margin: 20px;
+}
+a:hover{
+    text-shadow: 1px 1px 2px black;
+}
+.button1{
+   padding-top: 5px;
+   padding-bottom: 5px;
+   padding-left: 10px;
+   padding-right: 10px;
+   margin-right: 10px;
+   font-family: arial;
+   font-weight: bold;
+   border: 2px solid lightgray;
+   color:white;
+   box-shadow:2px 2px 3px black;
+   cursor: pointer;
+
+}
+.card{
+    background-color:lightgrey;
+    transition: all 1s;
+    color: black;
+}
+.card:hover{
+    box-shadow: 2px 2px 3px 1px rgb(31, 31, 31);
+    transform: translateY(-10px);
+    cursor: pointer;
+}
+.sec2{
+    height: 230px;
+    width: 100%;
+    background-color: rgb(73, 67, 67);
+    color: black;
+    position: relative;
+}
+.line{
+    position: absolute;
+    left: 400px;
+    bottom: 0px;
+}
+.logo{
+    position: absolute;
+    top: 50px;
+    left: 80px;
+}
+.line1{
+    position: absolute;
+    top: 10px;
+    right: 50px;
+}
+.fs-1{
+    font-size: 86px!important;
+    color: black;
+    font-family: serif;
+}
